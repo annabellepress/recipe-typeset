@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'geosanslightmedium_italic';
+    src: url('../fonts/geosanslight-oblique-webfont.woff2') format('woff2'),
+         url('../fonts/geosanslight-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('../fonts/geosanslight-webfont.woff2') format('woff2'),
+         url('../fonts/geosanslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tentang_nanti_demodemo';
+    src: url('../fonts/tnanti-demo-webfont.woff2') format('woff2'),
+         url('../fonts/tnanti-demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'geosanslightregular';
+    font-size: 20px;
+    line-height: 22px;
+}
+span {
+    font-family: 'geosanslightmedium_italic';
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+    color: red;
+    transition: 0.2s all ease;
+}
+.container {
+    background: #FEFBF1;
+    max-width: 550px;
+    min-height: 700px;
+    padding: 25px;
+    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.25);
+    margin: 0px 0 40px 80px ;
+    transform: rotate(-6deg);
+}
+h1{
+    display: block;
+    font-family:'tentang_nanti_demodemo';
+    font-size: 82px;
+    text-align: right;
+    margin: 80px 40px 40px 0;
+    color: #ec4503;
+}
+h2 {
+    font-family: 'tentang_nanti_demodemo';
+    color: #ec4503;
+}
+blockquote p{
+    font-family: 'geosanslightmedium_italic';
+    font-size: 28px;
+    line-height: 32px;
+    text-align: right;
+    margin: 40px;
+}
+ul {
+    margin: 0 0 180px 0;
+}
+
+.dough {
+    position: absolute;
+    width: 195.6px;
+    height: 146.14px;
+    border-radius: 55%;
+    border: 1px solid grey;
+    top: 280px;
+    left: 85px;
+}
+.cutout {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: lightgrey;
+    border: 2.65px dashed grey;
+    top: 300px;
+    left: 145px;
+}
+.bowl {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border-top-left-radius: 80.65px;
+    border-top-right-radius: 80.65px;
+    border: 1.65px solid grey;
+    border-bottom: 0.65px solid grey;
+    left: 330px;
+    top: 380px;
+}
+.drape {
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    border-top-left-radius: 90.65px;
+    border-top-right-radius: 90.65px;
+    border: 2px solid grey;
+    border-bottom: 0;
+    left: 325px;
+    top: 375px;
+}
+.doughbowl {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border-bottom-left-radius: 80.65px;
+    border-bottom-right-radius: 80.65px;
+    border: 2px solid grey;
+    border-top: 0;
+    left: 410px;
+    top: 280px;
+}
+.table {
+    position: absolute;
+    width: 120px;
+    border-bottom: 0.65px solid grey;
+    left: 395px;
+    top: 322px;
+}
+@media (max-width: 800px){
+    body {
+        font-size: 16px;
+        line-height: 18px
+    }
+    blockquote p {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: left;
+    }
+    h1 {
+        text-align: center;
+    }
+    .container {
+        max-width: 450px;
+        max-height: 600px;
+    }
+    .dough {
+        width: 180px;
+        height: 130px;
+        left: 45px;
+        top: 255px;
+    }
+    .cutout {
+        width: 60px;
+        height: 60px;
+        top: 280px;
+        left: 110px;
+    }
+    .bowl {
+        width: 60px;
+        height: 30px;
+        left: 260px;
+        top: 360px;
+    }
+    .drape {
+        width: 70px;
+        height: 40px;
+        left: 255px;
+        top: 355px;
+    }
+    .doughbowl {
+        width: 70px;
+        height: 40px;
+        left: 290px;
+        top: 260px;
+    }
+    .table {
+        width: 100px;
+        left: 280px;
+        top: 302px;
+    }
+}
